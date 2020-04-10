@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+    <link href="handwriting/handwriting.css" rel="stylesheet" type="text/css">
+    <title>电子签名</title>
+</head>
+<body>
+    <div class="wrap">
+        <canvas id="canvas">该浏览器不支持canvas画布</canvas>
+        <div class="canvasBtns">
+            <button class="canvasClear">清除</button>
+            <div class="canvasColors">
+                <input type="radio" name="color" id="item1" checked> <label for="item1" id="color1"></label>
+                <input type="radio" name="color" id="item2"> <label for="item2" id="color2"></label>
+                <input type="radio" name="color" id="item3"> <label for="item3" id="color3"></label>
+                <input type="radio" name="color" id="item4"> <label for="item4" id="color4"></label>
+                <input type="radio" name="color" id="item5"> <label for="item5" id="color5"></label>
+                <input type="radio" name="color" id="item6"> <label for="item6" id="color6"></label>
+            </div>
+        </div>
+        <div class="content-foot">
+            <button class="submit">提交</button>
+        </div>
+    </div>
+<script src="index.js" type="text/javascript"></script>
+<script src="handwriting/handwriting.js" type="text/javascript"></script>
+</body>
+</html>
